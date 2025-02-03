@@ -296,15 +296,6 @@ export default CounterPage;
 - Next.tsx extends the native Web fetch() API to allow each request on the server to set its own persistent caching semantics.
 
 ```tsx
-const url = 'https://www.course-api.com/react-tours-project';
-
-type Tour = {
-  id: string;
-  name: string;
-  info: string;
-  image: string;
-  price: string;
-};
 
 async function ToursPage() {
   const response = await fetch(url);
